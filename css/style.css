@@ -101,7 +101,10 @@
     background-image: repeating-radial-gradient(center center, rgba(256, 256, 256, 0.2), rgba(256, 256, 256, 0.2) 1px, transparent 1px, transparent 100%);
     background-size: 3px 3px;
 }
-
+.bg-img {
+    background: linear-gradient(rgba(4, 15, 40, .7), rgba(4, 15, 40, .7)), url(../img/footer.webp) center center no-repeat;
+    background-size: cover;
+}
 .navbar-dark .navbar-nav .nav-link {
     position: relative;
     padding: 35px 15px;
